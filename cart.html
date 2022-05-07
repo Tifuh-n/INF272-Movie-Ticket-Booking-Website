@@ -1,0 +1,74 @@
+<!-- Name: Tifuh Nche -->
+<!-- Student Number: u21653268 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navigation bar -->
+            <div class="menu-bar">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="home.html">
+                            <img src="images/logo.png" height="60" width="60" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                            <!-- <i class="fa fa-bars"></i> -->
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapseNavbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="cart.html">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <!-- Number of items in the cart -->
+                                        <span id="numItems">0</span> 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div id="wrapper" class="m-3">
+            <div id="page-content-wrapper" class="p-1">
+                <div class="container">
+                    <h3>Cart</h3>
+                    <!-- Cart table -->
+                    <table class="table table-sm">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Movie</th>
+                                <th scope="col">Unit Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartTable">
+                            <!-- Cart items go here -->
+                        </tbody>
+                        <tfoot id="cartFooter">
+                            
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>

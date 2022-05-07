@@ -1,0 +1,81 @@
+<!-- Name: Tifuh Nche -->
+<!-- Student Number: u21653268 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navigation bar -->
+            <div class="menu-bar">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand" href="home.html">
+                            <img src="images/logo.png" height="60" width="60" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                            <!-- <i class="fa fa-bars"></i> -->
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapseNavbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="cart.html">
+                                        <i class="fa fa-shopping-cart fa-lg"></i>
+                                        <!-- Number of items in the cart -->
+                                        <span id="numItems">0</span> 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div id="wrapper" class="m-3">
+            <div id="page-content-wrapper" class="p-1">
+                <div class="container">
+                    <h3>Movies</h3>
+
+                    <!-- Cards -->
+                    <div class="row row-cols-1 row-cols-md-4" id="movieSelection">
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCheck" tabindex="-1" aria-labelledby="modalMovie" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalMovie"></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Title: </b><span id="modalMovieTitle"></span></p>
+                                    <p><b>Director/s: </b><span id="modalDirector"></span></p>
+                                    <p><b>Release Year: </b><span id="modalYear"></span></p>
+                                    <p><b>Runtime: </b><span id="modalRuntime"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
