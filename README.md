@@ -2,10 +2,10 @@
 
 A front-end web application for browsing movies and booking cinema tickets. Users can view the available movies, read details about each one, add tickets to a shopping cart, and manage their cart before checkout. The cart persists between page loads and browser sessions.
 
-**Author:** Tifuh Nche
-**Course:** INF 272 - Advanced Programming
-**Institution:** University of Pretoria
-**Year:** 2022
+- **Author:** Tifuh Nche
+- **Course:** INF 272 - Advanced Programming
+- **Institution:** University of Pretoria
+- **Year:** 2022
 
 ---
 
