@@ -22,6 +22,7 @@ The goal of the assignment was to practise building a multi-page, responsive web
 - **Show Details** button opens a Bootstrap modal with the title, director(s), release year, and runtime
 - **Book Ticket** button adds a ticket to the cart
 - Cart icon in the navigation bar shows the live number of tickets in the cart
+
 ![Screenshot of Home page](./HomePage.png)
 
 ### Cart page (`cart.html`)
@@ -30,6 +31,7 @@ The goal of the assignment was to practise building a multi-page, responsive web
 - Remove a movie from the cart entirely
 - Running total cost for the whole cart
 - "No Movies In your Cart" message when the cart is empty
+
 ![Screenshot of Cart page](./CartPage.png)
 
 ### Persistence
