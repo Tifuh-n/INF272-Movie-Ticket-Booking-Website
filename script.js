@@ -146,7 +146,10 @@ window.onload = function () {
     });
 };
 //When cart page loads
-showCart();
+if(document.getElementById("cartTable"))
+{
+    showCart();
+}
 
 // Helper functions
 //Add the movie object to the shopping cart in local storage when book ticket button is pressed
